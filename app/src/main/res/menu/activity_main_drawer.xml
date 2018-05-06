@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_japanese"
+            android:title="国語" />
+        <item
+            android:id="@+id/nav_math"
+            android:title="数学" />
+        <item
+            android:id="@+id/nav_english"
+            android:title="英語" />
+        <item
+            android:id="@+id/nav_jhistory"
+            android:title="日本史" />
+        <item
+            android:id="@+id/nav_whistory"
+            android:title="世界史" />
+        <item
+            android:id="@+id/nav_geography"
+            android:title="地理" />
+        <item
+            android:id="@+id/nav_social"
+            android:title="政治経済/倫理/現代社会" />
+        <item
+            android:id="@+id/nav_physics"
+            android:title="物理" />
+        <item
+            android:id="@+id/nav_chemistory"
+            android:title="化学" />
+        <item
+            android:id="@+id/nav_biology"
+            android:title="生物" />
+        <item
+            android:id="@+id/nav_earth"
+            android:title="地学" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:title="お気に入り" />
+    </group>
+</menu>
