@@ -273,19 +273,15 @@ public class MainActivity extends AppCompatActivity {
                 if (id == R.id.nav_japanese) {
                     mToolbar.setTitle("国語");
                     mGenre = 1;
-
                 } else if (id == R.id.nav_math) {
                     mToolbar.setTitle("数学");
                     mGenre = 2;
-
                 } else if (id == R.id.nav_english) {
                     mToolbar.setTitle("英語");
                     mGenre = 3;
-
                 } else if (id == R.id.nav_jhistory) {
                     mToolbar.setTitle("日本史");
                     mGenre = 4;
-
                 } else if (id == R.id.nav_whistory) {
                     mToolbar.setTitle("世界史");
                     mGenre = 5;
@@ -339,7 +335,7 @@ public class MainActivity extends AppCompatActivity {
                             if ((ArrayList<String>) ds.child("fav").getValue() != null) {
                                 mfavList = (ArrayList<String>) ds.child("fav").getValue();
 
-                                for (int i = 1; i < 11; i++) {
+                                for (int i = 1; i < 12; i++) {
                                     mGenreRef = mDatabaseReference.child(Const.ContentsPATH).child(String.valueOf(i));
                                     mGenreRef.addChildEventListener(mEventListener);
 
